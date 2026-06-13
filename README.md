@@ -28,7 +28,7 @@ This repository contains battle-tested **skills** (workflow templates) that turn
 ## 🚀 Quick Start
 
 ```bash
-git clone https://github.com/yourname/awesome-ai-dev-skills.git
+git clone https://github.com/harrylyu20260808-pixel/awesome-ai-dev-skills.git
 cd awesome-ai-dev-skills
 # Copy a skill to your Claude projects directory
 cp skills/github-bounty-scanner.md ~/.claude/skills/
