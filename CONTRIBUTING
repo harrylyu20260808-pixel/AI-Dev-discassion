@@ -1,0 +1,39 @@
+# Contributing to AI-Dev-discassion
+
+First off, thanks for taking the time to contribute! 🎉
+
+This document provides guidelines for contributing to this repository — a collection of AI-powered development skills, prompts, and automation scripts for Claude Code, GLM, and other LLM coding agents.
+
+## 📦 What We're Building
+
+We aim to create a **practical, battle-tested toolkit** that helps developers (and AI agents) earn bounties, fix bugs, and automate coding tasks. All contributions that improve existing skills or add new ones are welcome.
+
+## 🧭 How Can I Contribute?
+
+### 🐛 Report a Bug / Request a Feature
+- Open an [Issue](https://github.com/harrylyu20260808-pixel/AI-Dev-discassion/issues)
+- Use the provided templates (bug report / feature request)
+- Be clear and include steps to reproduce if applicable
+
+### 💡 Add a New Skill
+We welcome new skills! A skill is a `.md` file inside `skills/<skill-name>/SKILL.md` with YAML frontmatter and clear instructions.
+
+**Skill file structure example**:
+```markdown
+---
+name: my-awesome-skill
+description: One-line description of what this skill does
+---
+
+# My Awesome Skill
+
+## When to Use
+- Scenario 1
+- Scenario 2
+
+## What This Skill Does
+- Action 1
+- Action 2
+
+## Usage
+Run `/my-awesome-skill` in Claude Code
