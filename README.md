@@ -10,17 +10,17 @@
 
 ## 🎯 What's Inside
 
-This repository contains battle-tested **skills** (workflow templates) that turn AI into a productive coding partner. Originally crafted for bounty hunting, bug fixing, and automated code review, they work with any LLM that supports function calling or structured prompting.
+This repository contains battle-tested **skills** (workflow templates) that turn AI into a productive coding partner.
 
 ### ✨ Featured Skills
 
 | Skill | Description |
 |-------|-------------|
-| **`github-bounty-scanner`** | Scan GitHub issues for reproducible bugs with clear rewards |
-| **`auto-pr-generator`** | Generate fix, run tests, and create PR with AI-assisted disclaimer |
-| **`code-review-assistant`** | Review PR diffs for security, performance, and style issues |
-| **`test-writer`** | Generate unit tests from code context (pytest/jest) |
-| **`doc-updater`** | Automatically update README and inline docs on code changes |
+| **github-bounty-scanner** | Scan GitHub issues for reproducible bugs with clear rewards |
+| **auto-pr-generator** | Generate fix, run tests, and create PR with AI-assisted disclaimer |
+| **code-review-assistant** | Review PR diffs for security, performance, and style issues |
+| **test-writer** | Generate unit tests from code context (pytest/jest) |
+| **doc-updater** | Automatically update README and inline docs on code changes |
 
 ### 🛠️ Prerequisites
 
@@ -33,11 +33,10 @@ This repository contains battle-tested **skills** (workflow templates) that turn
 ```bash
 git clone https://github.com/harrylyu20260808-pixel/AI-Dev-discassion.git
 cd AI-Dev-discassion
-# Copy a skill to your Claude projects directory
 cp skills/github-bounty-scanner.md ~/.claude/skills/
 ```
 
-Then in any Claude Code session, just type /github-bounty-scanner to activate.
+Then in any Claude Code session, type /github-bounty-scanner to activate.
 
 📚 How to Use
 
